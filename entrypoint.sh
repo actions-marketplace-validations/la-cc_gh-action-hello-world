@@ -12,7 +12,7 @@ start() {
     echo "Your custom text: ${PARAM_CUSTOM_TEXT}"
 }
 
-echo "[+] Hello world!"
+echo "[+] Start - Hello world!"
 # global
 echo "[*] GITHUB_TOKEN=${GITHUB_TOKEN}"
 echo "[*] GITHUB_REPOSITORY=${GITHUB_REPOSITORY}"
@@ -23,4 +23,4 @@ echo "[*] CUSTOM_TEXT=${PARAM_CUSTOM_TEXT}"
 # -------- Main  ------------ #
 start
 
-echo "[-] Hello World!"
+echo "[-] End - Hello World!"
