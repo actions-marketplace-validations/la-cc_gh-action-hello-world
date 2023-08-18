@@ -1,6 +1,9 @@
 name: "Hello World 101-101"
 description: "This is a simple hello world action"
 author: Artem Lajko
+branding:
+  icon: "coffee"
+  color: "blue"
 
 inputs:
   custom-text:
