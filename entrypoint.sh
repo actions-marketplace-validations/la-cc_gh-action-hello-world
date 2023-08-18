@@ -1,0 +1,26 @@
+#!/bin/bash
+set -eo pipefail
+
+# -------- environments check  ------------ #
+
+PARAM_CUSTOM_TEXT=${1:?"Missing CUSTOM_TEXT"}
+
+# -------- functions ------------ #
+
+function start() {
+
+    echo "Your custom text: ${PARAM_CUSTOM_TEXT}"
+}
+
+echo "[+] Hello world!"
+# global
+echo "[*] GITHUB_TOKEN=${GITHUB_TOKEN}"
+echo "[*] GITHUB_REPOSITORY=${GITHUB_REPOSITORY}"
+echo "[*] GITHUB_SHA=${GITHUB_SHA}"
+# params
+echo "[*] CUSTOM_TEXT=${PARAM_CUSTOM_TEXT}"
+
+# -------- Main  ------------ #
+start
+
+echo "[-] Hello World!"
