@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Hello World
-        uses: ./action.yml
+        uses: ./
         with:
           custom-text: "Hi, my name is XY!"
         env:
