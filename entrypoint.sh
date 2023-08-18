@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -eo pipefail
 
 # -------- environments check  ------------ #
@@ -7,7 +7,7 @@ PARAM_CUSTOM_TEXT=${1:?"Missing CUSTOM_TEXT"}
 
 # -------- functions ------------ #
 
-function start() {
+start() {
 
     echo "Your custom text: ${PARAM_CUSTOM_TEXT}"
 }

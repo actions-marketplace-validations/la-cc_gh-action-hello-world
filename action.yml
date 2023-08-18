@@ -6,7 +6,6 @@ inputs:
   custom-text:
     description: "Custom text to echo"
     required: true
-    default: "Override me!"
 
 runs:
   using: docker
